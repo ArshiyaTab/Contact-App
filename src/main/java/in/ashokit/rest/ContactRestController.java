@@ -21,7 +21,6 @@ import in.ashokit.service.ContactService;
 
 @RestController
 
-
 public class ContactRestController {
 	@Autowired(required=true)
 

@@ -8,23 +8,15 @@ import org.springframework.context.annotation.Bean;
 import in.ashokit.entity.Contact;
 
 public interface ContactService {
-	@Autowired(required=true)
+	@Autowired(required = true)
 	@Bean
-	
+
 	String upsert(Contact contact);
+
 	List<Contact> getAllContacts();
+
 	Contact getContact(int cid);
-	String deleteContact(int cid) ;
-	
-	
-	
-	
-	
-	
+
+	String deleteContact(int cid);
+
 }
-
-		
-	
-	
-
-
